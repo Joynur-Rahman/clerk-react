@@ -5,7 +5,7 @@ export default function App() {
   return (
     <header>
       <SignedOut>
-        <SignInButton className="sign-btn" />
+        <SignInButton />
       </SignedOut>
       <SignedIn>
         <div className="userbtn">
